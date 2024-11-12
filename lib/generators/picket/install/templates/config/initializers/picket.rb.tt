@@ -1,0 +1,2 @@
+Picket.configure do |config|
+end

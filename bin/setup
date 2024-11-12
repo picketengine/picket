@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+require "fileutils"
+
+ENGINE_ROOT = File.expand_path("..", __dir__)
+
+def system!(*args)
+  system(*args, exception: true)
+end
+
+FileUtils.chdir ENGINE_ROOT do
+  puts "== Installing dependencies =="
+  system("bundle check") || system!("bundle install")
+
+  puts "\n== Starting database containers =="
+  system! "docker-compose up -d --remove-orphans"
+
+  %w[mysql sqlite postgres].each do |adapter|
+    puts "\n== Preparing #{adapter} database =="
+    system! "TARGET_DB=#{adapter} bin/rails db:reset"
+  end
+
+  puts "\n== Removing old logs and tempfiles =="
+  system! "bin/rails app:log:clear app:tmp:clear"
+end

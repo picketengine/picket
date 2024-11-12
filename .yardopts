@@ -1,0 +1,14 @@
+--exclude /templates/
+--exclude /generators/
+--no-private
+--quiet
+app/**/*.rb
+lib/**/*.rb
+-
+ARCHITECTURE.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+README.md
+ROADMAP.md
+SECURITY.md

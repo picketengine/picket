@@ -1,0 +1,7 @@
+Description:
+    Installs Picket
+
+Example:
+    bin/rails generate picket:install
+
+    This generator adds default configuration for Picket.
