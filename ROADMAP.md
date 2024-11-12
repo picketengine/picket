@@ -1,0 +1,31 @@
+# Picket Roadmap
+
+- [ ] Rails 8 engine with minimal dependencies
+- [ ] Modular architecture with selective feature enablement
+- [ ] Username/phone number/email + password login with secure recovery
+- [ ] Passwordless login with magic links, QR codes, passkeys (WebAuthn), PIV (common access cards), mutual TLS (mTLS)
+- [ ] Federated/social login with OAuth, OIDC, SAML 2.0 and in-tree strategies for major providers
+- [ ] Multi-factor authentication (MFA) with magic links, passkeys, SMS/voice, TOTP, backup codes
+- [ ] Step-up authentication with magic links, passkeys, passwords, SMS/voice, federated identity
+- [ ] Concurrent session control with forced logout and database-backed session store
+- [ ] Rate limiting and brute force protection
+- [ ] IP-based access controls and geofencing
+- [ ] Just-in-time (JIT) user provisioning and group/role mapping from identity providers
+- [ ] Synced user provisioning and group/role mapping from directory providers
+- [ ] Multi-tenant ready with identity and directory providers per tenant
+- [ ] Extensible identity verification with external providers (e.g. ID.me)
+- [ ] Extensible attribute-based, role-based, and policy-based access control
+- [ ] OpenID Connect (OIDC) identity service
+- [ ] OAuth provider with user/organization-owned applications (like GitHub Apps)
+- [ ] User/organization-owned personal access tokens and private keys for API access
+- [ ] Access control for REST and GraphQL APIs
+- [ ] Webhooks for external integrations
+- [ ] Exportable and streamable audit trails with SIEM-compatible outputs
+- [ ] Real-time alerting for security events
+- [ ] Compliance profiles, reporting, and test suites for industry standards and frameworks
+- [ ] Built-in administration console with role-based access control
+- [ ] Built-in management API (including SCIM 2.0) with bulk provisioning
+- [ ] Fully localized views and notifications
+- [ ] Accessibility-focused (WCAG 2.1 AA), mobile-responsive default views and email templates with TailwindCSS, Stimulus, and Turbo
+- [ ] Test helpers and factories for Minitest, RSpec, and system tests
+- [ ] CLI for administrative tasks

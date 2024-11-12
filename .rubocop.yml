@@ -1,0 +1,12 @@
+inherit_gem:
+  rubocop-picket:
+    - config/default.yml
+    - config/rails.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  Exclude:
+    - "**/node_modules/**/*"

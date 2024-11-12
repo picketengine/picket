@@ -1,0 +1,10 @@
+/.bundle/
+/.yardoc/
+/Brewfile.lock.json
+/dist/
+/doc/
+/doc/
+/log/
+/node_modules/
+/pkg/
+/tmp/

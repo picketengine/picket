@@ -1,0 +1,6 @@
+*.rb diff=ruby
+*.gemspec diff=ruby
+test/dummy/config/credentials/*.yml.enc diff=rails_credentials
+test/dummy/config/credentials.yml.enc diff=rails_credentials
+test/dummy/db/schema.rb linguist-generated
+vendor/* linguist-vendored
