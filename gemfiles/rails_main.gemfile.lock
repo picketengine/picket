@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/picketengine/rubocop-picket.git
-  revision: e6d7163ae4276ca4207d89f31c343abeeff97890
+  revision: 620d3f1f96ff66fd23b62223365b60d706c2ed69
   specs:
     rubocop-picket (0.1.0)
       rubocop (>= 1.68.0)
@@ -117,7 +117,7 @@ GIT
 PATH
   remote: ..
   specs:
-    picket (0.1.0)
+    picket (0.1.0.alpha)
       actionmailer (>= 8.0.0)
       actionpack (>= 8.0.0)
       activejob (>= 8.0.0)
@@ -282,7 +282,7 @@ GEM
       chef-utils
     mocha (2.5.0)
       ruby2_keywords (>= 0.0.5)
-    msgpack (1.7.4)
+    msgpack (1.7.5)
     mysql2 (0.5.6)
     net-imap (0.5.1)
       date
@@ -353,7 +353,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.3.9)
     rorvswild_theme_rdoc (0.2)
-    rouge (4.5.0)
+    rouge (4.5.1)
     rubocop (1.68.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
